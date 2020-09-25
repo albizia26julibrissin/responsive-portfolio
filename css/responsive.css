@@ -1,0 +1,362 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ .navbar-brand{
+    padding-left: 34px;
+    margin-top: -12px;
+ }  
+ .navbar-light .navbar-toggler-icon {
+ /* background: slateblue;*/
+ color: slateblue!important
+ }
+
+ .navbar-light .navbar-toggler{
+    margin-right: 71px;
+    margin-top: -7px;
+ }
+ .p1 {
+    
+    height: 65vh;
+   }
+
+.p1 .row{
+  padding-top: 50px;
+}
+.p1p {
+    padding-top: 0px;}
+
+.darrow a i{
+margin-top: 16px;
+}
+.hello {
+    font-size: 19px;
+    color: #3f3f3f;
+    line-height: 2;
+    margin: 0px 53px 41px 53px;
+    text-align: center;
+}
+.p4 hr {
+      margin: 14px 117.5px 30px 55.5px;
+
+}
+.des {
+    font-size: 21px;
+    margin: 0px 74px 60px 74px;
+}
+
+.p6 h1{
+
+  padding-top: 65px;
+  margin-bottom: 45px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+   left: 285px;
+}
+.ip{
+  width: 310px;
+}
+.ipp{
+  width: 310px;
+}
+.msg{
+  width: 655px;
+}
+.bt{
+  width: 657px;
+}
+.p5 h1 {
+ margin-bottom: 35px;}
+
+
+
+
+
+
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.goToTop {
+
+height: 40px;}
+
+
+.navbar-brand {
+  font-size: 15px;
+  margin: -35px 16px 0px 42px;
+
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border:solid 2px rgba(128,0,128,.5);
+    margin-right: 12px;
+    margin-top: -3px;
+    padding-top: 8px;
+}
+
+.p1{
+  height: 60vh;
+}
+.darrow a i{
+margin-top: 0px;}
+
+
+.p1 .row {
+    text-align: center;
+    line-height: 1;
+    padding-top: 11px;
+}
+
+.p1p {
+    padding-top: 0px;
+  
+}
+.p1h{
+  font-size: 20px;
+}
+.am {
+ 
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.lid {
+    font-size: 19px;
+    
+    margin-bottom: 18px;
+}
+
+.hello {
+    font-size: 10px;
+    margin: 0px 8px 34px 8px;
+    text-align: center;
+}
+
+.p2 {
+    height: 696px;
+    width: 100%;
+}
+.ic a i{
+margin-bottom: 30px;
+}
+.wis {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.p3{
+  height: 261px;
+}
+.p3i ul li a i {
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background: #ffb233;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 17px;
+    margin-right: 14px;
+    margin-bottom: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+.p3i ul li a i:hover{
+
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  border: 3px solid #7f6438;            
+  background:#ffb233 ;
+  transition: all 0.3s ease-in-out;
+
+
+}
+.p3i ul li a p {
+    font-size: 12px;
+    color: white;
+    margin-left: -2px;
+    margin-right: 1px;
+    text-align: center;
+}
+
+.p4 h1 {
+    font-size: 18px;}
+
+.p4 p {
+    font-size: 14px;}
+
+.p4 hr {
+    margin: 15px auto;
+    border: none;
+}
+.p5 {
+    width: 100%;
+    padding: 50px 0px;
+}
+.p5 h1 {
+    margin-bottom: 27px;
+}
+.isotope-menu ul li {
+    font-size: 12px;
+    margin: 0px 14px;
+    cursor: pointer;
+}
+
+.des{
+    font-size: 11px;
+    color: #aaaaaa;
+    text-align: center;
+    margin: 28px;
+}
+
+.owl-carousel .owl-item img{
+  width: 18%;
+}
+.p6 h1 {
+    font-size: 23px;
+    padding-top: 43px;
+    margin-bottom: 0px;
+}
+.p6{
+  height: 450px;
+}
+.ad {
+    font-size: 14px;
+    margin-top: 43px;
+    margin-bottom: 2px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    position: absolute;
+    bottom: 60px;
+    left: 109px;
+}
+.p7{
+  height: 635px;
+}
+.p7 h1{
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ct1 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.ct2 {
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+.ip {
+    width: 143px;
+    height: 36px;
+    background: transparent;
+    border: 1px solid #ffb233;
+    padding: 9px;
+    margin: 8px auto;
+    color: white;
+}
+.ipp {
+    width: 143px;
+    height: 36px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 9px;
+    margin: 8px auto;
+    color: white;
+}
+.msg {
+    width: 291px;
+    height: 87px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 25px;
+    margin: 0px auto;
+    color: white;
+}
+.bt {
+    width: 292px;
+    height: 55px;
+    background: #51a351;
+    outline: none;
+    border: none;
+    border-radius: 3%;
+    padding: 14px;
+    text-align: center;
+    margin: 8px auto;
+    color: white;
+    font-size: 11px;
+}
+.cprt {
+    font-size: 9px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+}
